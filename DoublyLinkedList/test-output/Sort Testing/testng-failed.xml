@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sort Testing]">
+  <test thread-count="5" name="SortTest(failed)">
+    <parameter name="listType" value="WrappedDLL"/>
+    <classes>
+      <class name="SortTest">
+        <methods>
+          <include name="testSort_BigList"/>
+          <include name="testSort_AA"/>
+          <include name="testSort_AB"/>
+          <include name="testSort_BAC"/>
+          <include name="testSort_CAB"/>
+          <include name="testSort_CACB"/>
+          <include name="testSort_CADB"/>
+          <include name="testSort_AAB"/>
+          <include name="testSort_ABC"/>
+          <include name="testSort_BAA"/>
+          <include name="testSort_CBA"/>
+          <include name="testSort_BAB"/>
+          <include name="testSort_ABA"/>
+          <include name="testSort_ACB"/>
+          <include name="testSort_BCA"/>
+          <include name="testSort_BDAC"/>
+          <include name="init"/>
+          <include name="testSort_BA"/>
+        </methods>
+      </class> <!-- SortTest -->
+    </classes>
+  </test> <!-- SortTest(failed) -->
+</suite> <!-- Failed suite [Sort Testing] -->

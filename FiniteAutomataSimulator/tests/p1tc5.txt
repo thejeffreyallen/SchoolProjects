@@ -1,0 +1,10 @@
+F
+0
+1 2 E
+0a1 0bE EaE EbE 1a2 1bF 2a1 2b1 Fa1 Fb1
+baba
+aab
+ab
+abaaab
+abaaababaaaabb
+aaaaaaaaaaaaaaab
